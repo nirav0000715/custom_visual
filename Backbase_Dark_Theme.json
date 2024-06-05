@@ -1,0 +1,332 @@
+﻿{
+    "name": "Backbase Dark Theme",
+    "dataColors": [
+        "#61D1D1",
+        "#295EFF",
+        "#64D8A2",
+        "#9E67E4",
+        "#EC93BF",
+        "#FF9C57",
+        "#E7F8F8",
+        "#FFD289",
+        "#3599B8",
+        "#DFBFBF",
+        "#4AC5BB",
+        "#5F6B6D",
+        "#FB8281",
+        "#F4D25A",
+        "#7F898A",
+        "#A4DDEE",
+        "#FDAB89",
+        "#B687AC",
+        "#28738A",
+        "#A78F8F",
+        "#168980",
+        "#293537",
+        "#BB4A4A",
+        "#B59525",
+        "#475052",
+        "#6A9FB0",
+        "#BD7150",
+        "#7B4F71",
+        "#1B4D5C",
+        "#706060",
+        "#0F5C55",
+        "#1C2325"
+    ],
+    "bad": "#F99286",
+    "neutral": "#7E848C",
+    "good": "#9EC374",
+    "minimum": "#F99286",
+    "center": "#9EC374",
+    "maximum": "#61D1D1",
+    "foreground": "#FFFFFF",
+    "foregroundNeutralSecondary": "#FFFFFF",
+    "backgroundLight": "#FFFFFF",
+    "foregroundNeutralTertiary": "#FFFFFF",
+    "background": "#292B2E",
+    "backgroundNeutral": "#292B2E",
+    "textClasses": {
+        "label": {
+            "color": "#FFFFFF",
+            "fontSize": 8,
+            "fontFace": "Libre Franklin"
+        },
+        "title": {
+            "color": "#FFFFFF",
+            "fontSize": 10,
+            "fontFace": "Libre Franklin"
+        },
+        "header": {
+            "color": "#FFFFFF",
+            "fontSize": 10,
+            "fontFace": "Libre Franklin"
+        },
+        "callout": {
+            "fontSize": 24,
+            "color": "#69FEFF",
+            "fontFace": "Libre Franklin"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        }
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        },
+                        "show": true,
+                        "radius": 16
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#295EFF"
+                            }
+                        }
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "themedTitleFontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "themedValueFontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "themedBackground": {
+                            "solid": {
+                                "color": "#AABBFF"
+                            }
+                        },
+                        "actionFontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "visualHeaderTooltip": [
+                    {
+                        "themedTitleFontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "themedBackground": {
+                            "solid": {
+                                "color": "#AABBFF"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#18191B"
+                            }
+                        },
+                        "headerSize": 9,
+                        "checkboxAndApplyColor": {
+                            "solid": {
+                                "color": "#85A3FF"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#18191B"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 0,
+                        "lineColor": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        }
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "color": "#FFFFFF",
+                        "fontSize": 10,
+                        "fontFace": "Libre Franklin"
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 16,
+                        "bottom": 16,
+                        "left": 16,
+                        "right": 16
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#18191B"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "slider": [
+                    {
+                        "show": false
+                    }
+                ],
+                "header": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "color": "#FFFFFF",
+                        "fontSize": 8,
+                        "fontFace": "Libre Franklin"
+                    }
+                ],
+                "items": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        },
+                        "textSize": 8,
+                        "fontFamily": "Libre Franklin"
+                    }
+                ],
+                "date": [
+                    {
+                        "textSize": 8,
+                        "fontFamily": "Libre Franklin"
+                    }
+                ]
+            }
+        },
+        "shape": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#292B2E"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "textbox": {
+            "*": {
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        }
+    }
+}
