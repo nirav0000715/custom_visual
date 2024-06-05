@@ -1,0 +1,97 @@
+{
+  "name": "advancecard",
+  "visualStyles": {
+    "myCustomVisual": {
+      "*": {
+        "dataLabelSettings": {
+          "fontSize": {
+            "fontSize": 12
+          },
+          "fontFamily": {
+            "fontFamily": "Arial"
+          },
+          "isBold": {
+            "bool": true
+          },
+          "isItalic": {
+            "bool": false
+          },
+          "isUnderline": {
+            "bool": false
+          },
+          "color": {
+            "solid": {
+              "color": "#333333"
+            }
+          },
+          "lineAlignment": {
+            "alignment": "center"
+          },
+          "text": {
+            "text": "Label"
+          }
+        },
+        "prefixSettings": {
+          "fontSize": {
+            "fontSize": 10
+          },
+          "fontFamily": {
+            "fontFamily": "Arial"
+          },
+          "isBold": {
+            "bool": false
+          },
+          "isItalic": {
+            "bool": false
+          },
+          "isUnderline": {
+            "bool": false
+          },
+          "color": {
+            "solid": {
+              "color": "#666666"
+            }
+          },
+          "lineAlignment": {
+            "alignment": "left"
+          }
+        },
+        "postfixSettings": {
+          "fontSize": {
+            "fontSize": 10
+          },
+          "fontFamily": {
+            "fontFamily": "Arial"
+          },
+          "isBold": {
+            "bool": false
+          },
+          "isItalic": {
+            "bool": false
+          },
+          "isUnderline": {
+            "bool": false
+          },
+          "colorNegative": {
+            "solid": {
+              "color": "#e15554"
+            }
+          },
+          "colorNeutral": {
+            "solid": {
+              "color": "#4d9de0"
+            }
+          },
+          "colorPositive": {
+            "solid": {
+              "color": "#1b998b"
+            }
+          },
+          "lineAlignment": {
+            "alignment": "right"
+          }
+        }
+      }
+    }
+  }
+}

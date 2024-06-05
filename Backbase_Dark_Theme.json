@@ -327,6 +327,23 @@
                     }
                 ]
             }
+        },
+        "advancecard": {
+            "dataLabelSettings":{
+                "*":{
+                    "fontSize": {
+                        "default": 18
+                      },
+                      "fontFamily": {
+                        "default": "Libre Franklin"
+                      },
+                      "color": {
+                        "solid": {
+                          "color": "#69FEFF"
+                        }
+                      }
+                }
+            }
         }
     }
 }
