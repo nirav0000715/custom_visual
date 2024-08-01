@@ -235,6 +235,49 @@
                         "left": 16,
                         "right": 16
                     }
+                ],
+                "dataLabelSettings": [
+                                        {
+                                        "fontSize" : 18,
+                                        "fontFamily" : "'Libre Franklin'",
+                                        "color": {
+                                                        "solid": {
+                                                            "color": "#69FEFF"
+                                                        }
+                                                    }
+                                        }
+                                    ],
+                "prefixSettings": [
+                    {
+                    "fontSize" : 8,
+                    "fontFamily" : "'Libre Franklin'",
+                    "color": {
+                                    "solid": {
+                                        "color": "#A1A8B2"
+                                    }
+                                }
+                    }
+                ],
+                "postfixSettings": [
+                    {
+                    "fontSize" : 10,
+                    "fontFamily" : "'Libre Franklin'",
+                    "color_positive": {
+                                    "solid": {
+                                        "color": "#9ec374"
+                                    }
+                                },
+                                "color_negative": {
+                                    "solid": {
+                                        "color": "#f99286"
+                                    }
+                                },
+                                "color_neutral": {
+                                    "solid": {
+                                        "color": "#7e848c"
+                                    }
+                                }
+                    }
                 ]
             }
         },
@@ -326,23 +369,6 @@
                         "show": false
                     }
                 ]
-            }
-        },
-        "advancecard": {
-            "dataLabelSettings":{
-                "*":{
-                    "fontSize": {
-                        "default": 18
-                      },
-                      "fontFamily": {
-                        "default": "Libre Franklin"
-                      },
-                      "color": {
-                        "solid": {
-                          "color": "#69FEFF"
-                        }
-                      }
-                }
             }
         }
     }
